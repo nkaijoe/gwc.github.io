@@ -1,8 +1,8 @@
-li {list-style-type:none; margin-bottom:70px; background-color:white;height: 70px;}
+li {list-style-type:none; margin-bottom:70px; height: 70px; background-color:rgba(239, 239, 239,.65);}
 
-	li:hover{ background-color:antiquewhite;}
+	li:hover{ background-color:#cfc09f;}
 a {position:relative; border-radius:6px; text-decoration:none; padding:5px 20px 25px 60px; margin-right:40px; font-size:20px;color:#444; background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/download.png') 4px 0px no-repeat; }
-a:hover {}
+a:hover {color:black;}
 a:active {border-color:#ccc; box-shadow:none;}
 
 a[href$=".ppt"]:before, a[href$=".pdf"]:before, a[href$=".doc"]:before, a[href$=".xls"]:before, a[href$=".zip"]:before {position:absolute; width:62px; height:72px; top:2px; left:2px; transition:all .4s;}
@@ -15,4 +15,4 @@ a[href$=".zip"]:before {content:url('https://s3-us-west-2.amazonaws.com/s.cdpn.i
 
 a[href$=".ppt"]:hover:before, a[href$=".pdf"]:hover:before, a[href$=".doc"]:hover:before, a[href$=".xls"]:hover:before, a[href$=".zip"]:hover:before {opacity:0;}
 
-a[href$=".ppt"]:after, a[href$=".pdf"]:after, a[href$=".doc"]:after, a[href$=".xls"]:after, a[href$=".zip"]:after { position:absolute; top:5px; left:60px; color:#aaa;}
+a[href$=".ppt"]:after, a[href$=".pdf"]:after, a[href$=".doc"]:after, a[href$=".xls"]:after, a[href$=".zip"]:after { position:absolute; top:5px;  color:#aaa;}
