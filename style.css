@@ -1,4 +1,4 @@
-li {list-style-type:none; margin-bottom:70px; height: 70px; background-color:rgba(239, 239, 239,.65);padding:12px}
+li {list-style-type:none; margin-bottom:70px;  background-color:rgba(239, 239, 239,.65);padding:12px}
 
 	li:hover{ background-color:#cfc09f;border-color:#444; box-shadow: 0 0 10px #444;}
 a {position:relative; border-radius:6px; text-decoration:none; padding:5px 20px 25px 60px; margin-right:40px; font-size:20px;color:#444; background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/download.png') 4px 0px no-repeat; }
