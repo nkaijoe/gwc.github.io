@@ -1,18 +1,3 @@
-li {list-style-type:none; margin-bottom:70px;  background-color:rgba(239, 239, 239,.65);padding:12px}
+div#resc li {list-style-type:none; margin-bottom:10px;  background-color:rgba(239, 239, 239,.65);padding:12px}
 
-	li:hover{ background-color:#cfc09f;border-color:#444; box-shadow: 0 0 10px #444;}
-a {position:relative; border-radius:6px; text-decoration:none; padding:5px 20px 25px 60px;  font-size:20px;color:#444; background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/download.png') 4px 0px no-repeat; }
-a:hover {color:black;}
-a:active {border-color:#ccc; box-shadow:none;}
-
- a[href$=".ppt"]:before,  a[href$=".pdf"]:before, a[href$=".doc"]:before, a[href$=".xls"]:before, a[href$=".zip"]:before {position:absolute; width:62px; height:72px; top:2px; left:2px; transition:all .4s;}
-
-a[href$=".ppt"]:before {content:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/ppt.png');}
-a[href$=".pdf"]:before {content:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/pdf.png');}
-a[href$=".doc"]:before {content:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/doc.png');}
-a[href$=".xls"]:before {content:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/xls.png');}
-a[href$=".zip"]:before {content:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/zip.png');}
-
-a[href$=".ppt"]:hover:before, a[href$=".pdf"]:hover:before, a[href$=".doc"]:hover:before, a[href$=".xls"]:hover:before, a[href$=".zip"]:hover:before {opacity:0;}
-
-a[href$=".ppt"]:after, a[href$=".pdf"]:after, a[href$=".doc"]:after, a[href$=".xls"]:after, a[href$=".zip"]:after { position:absolute; top:5px;  color:#aaa;}
+div#resc	li:hover{ background-color:#cfc09f;border-color:#444; box-shadow: 0 0 10px #444;}
