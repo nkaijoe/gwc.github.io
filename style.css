@@ -1,3 +1,3 @@
 div#resc li {list-style-type:none;  margin-bottom: 12px; background-color:#f4f4f4;padding:5px;}
 
-div#resc	li:hover{ border-color:#ccc; box-shadow: 0 0 10px #444;}
+div#resc	li:hover{ border-color:#ccc; box-shadow: 0 0 10px #ccc;}
